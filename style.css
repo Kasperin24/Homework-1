@@ -1,0 +1,133 @@
+/*-----------Base-----------*/
+body{
+    background-color: thistle;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    max-width: 692px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.logo_head, .logo_foot{
+    max-width: 200px;
+}
+/* arriba hacia abajo */
+/*-------HEAD-------*/
+header{
+    overflow: hidden;
+}
+.logo_head{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.right{
+    float: right;
+    margin-top: 4px;
+    margin-right: 60px;
+    }
+.right li{
+    display: inline-block;
+}
+
+.busqueda a{
+    text-decoration: none;
+    border-color: teal;
+    border: 1px;
+    font-size: small;
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+/*-----------MAIN---------------*/
+.main{
+    background-image: url("imagenes/hombre-luz.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+}
+.main_text{
+    color:white;
+    max-width: 375px;
+    margin-left: 65px;
+    padding-top: 30px;
+}
+.main_text h2{
+    font-size: medium;
+}
+/* -----------MID--------------*/
+.mid{
+    height: 180px;
+    display: inline-block;
+    overflow: visible;
+    
+}
+.mid div{
+    float:right;
+}
+.mid article{
+    max-width: 150px;
+    margin-left: 100px;
+    font-size: small;
+    margin-top: 30px;
+}
+
+/*------------BOT---------------*/
+.bot{
+    background-image: url("imagenes/paisaje.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 225px;
+}
+.boxes li{
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    justify-content: space-around;
+    margin-right: 15px;
+    vertical-align: top;
+    margin-top: 80px;
+}
+.boxes li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1em;
+}
+#violeta{
+    background-color: rgb(122,42,129);
+}
+#azul{
+    background-color: rgb(1,75,136);
+}
+#rosa{
+    background-color: rgb(242,114,139);
+}
+#celeste{
+    background-color: rgb(146,201,239);
+}
+#naranja{
+    background-color: rgb(245,121,33);
+}
+#amarillo{
+    background-color: rgb(255,194,15);
+}
+.city_logo{
+    max-height: 70px;
+}
+/*------------NEWS---------------*/
+aside{
+    height: 300px;
+}
+.img_news{
+    max-width: 240px;
+    max-height: 115px;
+}
+/*-------------FOOT--------------*/
+.foot{
+    height: 100px;
+}
+/*--------------Footer-------------*/
+footer{
+    height: 135px;
+}
